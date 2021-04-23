@@ -1,0 +1,13 @@
+<AlertDialog>:
+    BoxLayout:
+        size: root.size
+        pos: root.pos
+        orientation: "vertical"
+        Label:
+            text: root.message
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button
+                text: "Ok"
+                on_release: root.close()

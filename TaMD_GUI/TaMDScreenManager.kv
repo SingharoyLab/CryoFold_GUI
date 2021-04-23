@@ -1,0 +1,17 @@
+#:import ScreenManager kivy.uix.screenmanager
+
+<TaMDPart>:
+    StateManager:
+        id: screen_manager_tamd
+        TaMDScreen:
+            name: 'tamd'
+            manager: screen_manager_tamd
+        Simulation_params:
+            name: 'sim_param'
+            manager: screen_manager_tamd
+#        Colvars:
+#            name: 'colvar'
+#            manager: screen_manager_tamd
+#        ColvarsConfig:
+#            name: 'colConfig'
+#            manager: screen_manager_tamd

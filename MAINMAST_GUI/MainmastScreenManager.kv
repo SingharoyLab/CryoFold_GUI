@@ -1,0 +1,11 @@
+#:import ScreenManager kivy.uix.screenmanager
+
+<MainmastPart>:
+    StateManager:
+        id: screen_manager_mainmast
+        MainmastScreen:
+            name: 'mainmast'
+            manager: screen_manager_mainmast
+        ThreadCAScreen:
+            name: 'threadca'
+            manager: screen_manager_mainmast
