@@ -44,4 +44,3 @@ To start CryoFold, please run
 
 $ ./start.sh
 
-Usage instructions for using the CryoFold GUI are located in the supplementary information of CryoFold: Ab-initio structure determination from electron density maps using molecular dynamics on pages 15 to 23.

@@ -64,6 +64,8 @@ Manual changes to installation script `install_linux.sh` or `install_mac.sh` mig
 
 We recommend using the installation script as it creates a separate python environment called "CryoFold" where all the packages are installed in. This keeps the default packages untouched.
 
+For more information, refer to the ”Notes.txt” file.
+
 ## Usage
 
 The CryoFold GUI has 4 sections, namely, MAINMAST, Targeted Molecular Dynamics, MDFF, and MELD. Note that depending upon the map resolution, you might not need to use all 4 sections.
