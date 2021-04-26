@@ -1,6 +1,8 @@
-# TBD
+# CryoFold: determining protein structures and ensembles from cryo-EM data 
 
-TBD
+This repository contains the scripts that run the GUI for cryofold, described in the following preprint:
+
+https://www.biorxiv.org/content/10.1101/687087v3
 
 ## Requirements
 
